@@ -1,3 +1,6 @@
+# INPUT -> ALL EXCEL FILES PLACED UNDER attachments folder
+# OUTPUT -> Import data from each excel file and outputs the sql query for each table
+
 import mysql.connector as mysqlc
 import openpyxl
 import shutil
@@ -58,6 +61,7 @@ if __name__ == "__main__":
 
     if os.path.isdir(sqlPath):
         print(f"[{time.ctime()}] {sqlPath} FOUND. DELETING IT AND CREATING A NEW ONE")
+        # os.rmdir(sqlPath) -> Linux
         shutil.rmtree(sqlPath)
         os.mkdir(sqlPath)
     else:
@@ -69,7 +73,7 @@ if __name__ == "__main__":
     for i in fileNames:
         # loading the excel file
         dataNotebook = folderPath + f"\\{i}"
-        # new sqltable name
+        # new sql table name
         tableName = "g2" + f"{i[:-5].lower()}"
         print("\n\n\n")
         print(f"[{time.ctime()}] LOOKING INTO '{i}', CREATED A NEW TABLE NAMED '{tableName}' ")
