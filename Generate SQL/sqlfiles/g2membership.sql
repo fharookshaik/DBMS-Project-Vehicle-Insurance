@@ -23,5 +23,5 @@ INSERT INTO g2membership VALUES (20322, 'Normal', 8865315691, 2022) ;
 INSERT INTO g2membership VALUES (20323, 'VIP', 9395965690, 2023) ;
 INSERT INTO g2membership VALUES (20324, 'Normal', 9395965690, 2024) ;
 INSERT INTO g2membership VALUES (20325, 'Premium', 7792910958, 2025) ;
-INSERT INTO g2membership VALUES (20326, 'Premium', 'Null', 2019) ;
-INSERT INTO g2membership VALUES (20327, 'Premium', 'Null', 2020) ;
+INSERT INTO g2membership VALUES (20326, 'Premium', '', 2019) ;
+INSERT INTO g2membership VALUES (20327, 'Premium', '', 2020) ;

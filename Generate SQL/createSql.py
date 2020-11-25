@@ -27,7 +27,7 @@ def typeconversion(attrType,values):
             temp = str(values[i])
             values[i] = temp[:-9]
         if values[i] == None:
-            values[i] = 'Null'
+            values[i] = ''
     return tuple(values)
 
 if __name__ == "__main__":

@@ -1,6 +1,6 @@
-INSERT INTO g2insurance_company VALUES ('Life Insurance Corporation of India', 'Yogakshema, Jeevan Bima Marg', 180056598, 258369, 'Lic@gmail.com', 'licindia.com', 'Mumbai', 'Null', 'Null') ;
+INSERT INTO g2insurance_company VALUES ('Life Insurance Corporation of India', 'Yogakshema, Jeevan Bima Marg', 180056598, 258369, 'Lic@gmail.com', 'licindia.com', 'Mumbai', '', '') ;
 INSERT INTO g2insurance_company VALUES ('HDFC Life Insurance Co. Ltd', '13th Floor, Lodha Excelus, Apollo Mills Compound, N.M. Joshi Road, Mahalaxmi, Mumbai', 180023254, 14725, 'hdfc@mail.com', 'hdfclife.com', 'Mumbai', 'hdfclife', 'hdfcoffice') ;
-INSERT INTO g2insurance_company VALUES ('Max Life Insurance Co. Ltd.', '3rd, 11th, 12th Floor, DLF Square Building,', 1800362541, 784565, 'maxlife@gmail.co', 'maxlife.com', 'Gurgaon', 'Null', 'Null') ;
+INSERT INTO g2insurance_company VALUES ('Max Life Insurance Co. Ltd.', '3rd, 11th, 12th Floor, DLF Square Building,', 1800362541, 784565, 'maxlife@gmail.co', 'maxlife.com', 'Gurgaon', '', '') ;
 INSERT INTO g2insurance_company VALUES ('ICICI Prudential Life Insurance Co. Ltd', 'icici prulife towers', 1800988765, 986532, 'icici@yahoo.oin', 'https://www.iciciprulife.com/', 'Mumbai', 'ICICI PruLife', 'ICICI PruLife') ;
 INSERT INTO g2insurance_company VALUES ('Kotak Mahindra Life Insurance Co. Ltd.', 'Jacaranda Marg, DLF City, Phase – II, Gurgaon', 1800126698, 124578, 'kotak@mail.com', 'kotakmahindra.com', 'Mumbai', 'kotakinsurance', 'kotaklifeoffice') ;
 INSERT INTO g2insurance_company VALUES ('Aditya Birla SunLife Insurance Co. Ltd.', '1089, Appasaheb Marathe Marg, Prabhadevi,Mumbai', 1800127589, 320587, 'aditya@mail.com', 'adityabirla.com', 'MUmbai', 'Birla Sun Life Insurance ', 'Birla Sun Life Insurance ') ;
@@ -23,5 +23,5 @@ INSERT INTO g2insurance_company VALUES ('Star Union Dai-Ichi Life Insurance Co. 
 INSERT INTO g2insurance_company VALUES ('IndiaFirst Life Insurance Company Ltd.,', 'Tower 4, NESCO IT Park, NESCO Centre,Goregaon', 1800546912, 902587, 'IndiaFirst@help.in', 'IndiaFirst.com', 'Mumbai', 'indiafistlife', 'indaif9irstoffice') ;
 INSERT INTO g2insurance_company VALUES ('Edelweiss Tokio Life Insurance Company Limited', '3rd & 4th Floor, Tower 3, Wing B, Kohinoor City,Kirol Road, Kurla', 1800659865, 801478, 'edelweiss@gmail.com', 'edelweisslife.com', 'Mumbai', 'edelwisslife', 'edelweisslifeoffice') ;
 INSERT INTO g2insurance_company VALUES ('Adani Insurance Company', 'Tower 3,Gandhinagar', 1825895623, 702589, 'adani@help.com', 'adanilife.com', 'Gandhinagar', 'Adanilife', 'adanilifeoffice') ;
-INSERT INTO g2insurance_company VALUES ('green india company', 'guntur', 1800452323, 784512, 'Null', 'Null', 'Null', 'Null', 'grrenindiaoffice') ;
-INSERT INTO g2insurance_company VALUES ('go india company', 'amaravathi', 1800547893, 78454, 'Null', 'Null', 'Null', 'Null', 'goindiaoffice') ;
+INSERT INTO g2insurance_company VALUES ('green india company', 'guntur', 1800452323, 784512, '', '', '', '', 'grrenindiaoffice') ;
+INSERT INTO g2insurance_company VALUES ('go india company', 'amaravathi', 1800547893, 78454, '', '', '', '', 'goindiaoffice') ;

@@ -23,5 +23,5 @@ INSERT INTO g2vehicle_service VALUES ('Marketing Department', 'poc', 'Kanyakumar
 INSERT INTO g2vehicle_service VALUES ('Claims and audit profit Department', 'klm', 'Kharakpur', 3719582648, 'Rathod', 'half service', 2323, 'IndiaFirst Life Insurance Company Ltd.,') ;
 INSERT INTO g2vehicle_service VALUES ('Agency Department', 'cmr', 'Ganga', 9156874253, 'Salam', 'Full service', 2324, 'Edelweiss Tokio Life Insurance Company Limited') ;
 INSERT INTO g2vehicle_service VALUES ('Legal Department', 'sid', 'Hubli', 5684269810, 'Salim', 'Full service', 2325, 'Adani Insurance Company') ;
-INSERT INTO g2vehicle_service VALUES ('claim department', 'sriram', 'vizag', 'Null', 'Null', 'Null', 2326, 'green india company') ;
-INSERT INTO g2vehicle_service VALUES ('claim department', 'l and t', 'amaravathi', 'Null', 'Null', 'Null', 2327, 'go india company') ;
+INSERT INTO g2vehicle_service VALUES ('claim department', 'sriram', 'vizag', '', '', '', 2326, 'green india company') ;
+INSERT INTO g2vehicle_service VALUES ('claim department', 'l and t', 'amaravathi', '', '', '', 2327, 'go india company') ;

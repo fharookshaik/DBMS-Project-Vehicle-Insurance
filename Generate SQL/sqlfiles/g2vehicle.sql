@@ -23,5 +23,5 @@ INSERT INTO g2vehicle VALUES (2422, 2522, 'AR-03-GI-3957', 2500000, '4 wheeler',
 INSERT INTO g2vehicle VALUES (2423, 2523, 'TS-09-GY-2009', 3000000, '4 wheeler', 6.3, 4, 'Mercedes-Benz', 2623, 22723, 965780, 'RTX-459700', 2023) ;
 INSERT INTO g2vehicle VALUES (2424, 2524, 'GA-06-IK-1117', 2800000, '4 wheeler', 2.9, 4, 'Mitsubishi Motors', 2624, 22724, 562489, 'RTX-146001', 2024) ;
 INSERT INTO g2vehicle VALUES (2425, 2525, 'AP-06-KL-0007', 3200000, '4 wheeler', 5.6, 4, 'MINI', 2625, 22725, 158740, 'RTX-753150', 2025) ;
-INSERT INTO g2vehicle VALUES (2426, 2526, 'AP-06-KL-0008', 7000000, '4 wheeler', 5.09, 4, 'range rover', 2626, 22726, 'Null', 'Null', 2019) ;
-INSERT INTO g2vehicle VALUES (2427, 2527, 'AP-06-KL-0009', 8500000, '4 wheeler', 5, 4, 'land rover', 2627, 22727, 'Null', 'Null', 2020) ;
+INSERT INTO g2vehicle VALUES (2426, 2526, 'AP-06-KL-0008', 7000000, '4 wheeler', 5.09, 4, 'range rover', 2626, 22726, '', '', 2019) ;
+INSERT INTO g2vehicle VALUES (2427, 2527, 'AP-06-KL-0009', 8500000, '4 wheeler', 5, 4, 'land rover', 2627, 22727, '', '', 2020) ;

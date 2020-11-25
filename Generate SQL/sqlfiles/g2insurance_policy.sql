@@ -23,5 +23,5 @@ INSERT INTO g2insurance_policy VALUES (20122, 'Engine cover', 123582, '2020-01-1
 INSERT INTO g2insurance_policy VALUES (20123, 'External Body', 325874, '2020-09-07', '2023-09-07', 'Coverage against loss of or damage to your vehicle caused by riots,strikes', 20023, 2023) ;
 INSERT INTO g2insurance_policy VALUES (20124, 'Engine cover', 698521, '2020-05-28', '2023-05-28', 'Coverage against loss of or damage to your vehicle caused by riots,strikes', 20024, 2024) ;
 INSERT INTO g2insurance_policy VALUES (20125, 'Engine cover', 368740, '2020-09-01', '2022-09-01', 'Coverage against loss of or damage to your vehicle caused by riots,strikes', 20025, 2025) ;
-INSERT INTO g2insurance_policy VALUES (20126, 'External Body', 'Null', '2020-12-01', '2023-12-01', 'Null', 20026, 2019) ;
-INSERT INTO g2insurance_policy VALUES (20127, 'External Body', 'Null', '2020-12-02', '2023-12-02', 'Null', 20027, 2020) ;
+INSERT INTO g2insurance_policy VALUES (20126, 'External Body', '', '2020-12-01', '2023-12-01', '', 20026, 2019) ;
+INSERT INTO g2insurance_policy VALUES (20127, 'External Body', '', '2020-12-02', '2023-12-02', '', 20027, 2020) ;

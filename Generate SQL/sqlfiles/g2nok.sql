@@ -23,5 +23,5 @@ INSERT INTO g2nok VALUES (20622, 'laya', 'Hyderabad', 9775113001, 'M', 'Single',
 INSERT INTO g2nok VALUES (20623, 'ramu', 'Pune', 8894555001, 'M', 'Divorced', 20123, 20023, 2023) ;
 INSERT INTO g2nok VALUES (20624, 'charan', 'Kolkatta', 7794556112, 'M', 'Married', 20124, 20024, 2024) ;
 INSERT INTO g2nok VALUES (20625, 'venky', 'Kochi', 9944552001, 'M', 'Divorced', 20125, 20025, 2025) ;
-INSERT INTO g2nok VALUES (20626, 'ramesh', 'vizag', 7894561237, 'M', 'Null', 20126, 20026, 2019) ;
-INSERT INTO g2nok VALUES (20627, 'deepak', 'amaravathi', 9878654512, 'M', 'Null', 20127, 20027, 2020) ;
+INSERT INTO g2nok VALUES (20626, 'ramesh', 'vizag', 7894561237, 'M', '', 20126, 20026, 2019) ;
+INSERT INTO g2nok VALUES (20627, 'deepak', 'amaravathi', 9878654512, 'M', '', 20127, 20027, 2020) ;
