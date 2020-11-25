@@ -233,7 +233,7 @@ CREATE TABLE G2NOK
 Nok_Id VARCHAR(20) NOT NULL ,
 Nok_Name VARCHAR(30) NULL ,
 Nok_Address VARCHAR(20) NULL ,
-Nok_Phone_Number INTEGER NULL ,
+Nok_Phone_Number BIGINT NULL ,
 Nok_Gender CHAR(2) NULL ,
 Nok_Marital_Status CHAR(8) NULL ,
 Agreement_id VARCHAR(20) NOT NULL ,
