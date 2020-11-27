@@ -1,6 +1,8 @@
 /*Query1
 Question: Retrieve Customer and Vehicle details who has been involved in an incident and claim status
 is pending.
+
+ASSUMPTION: The claim status = 'pending' indireclty mean that the particular vehicle is met with any incident.
 */
 SELECT c.*,v.* FROM
 G2customer AS c,G2vehicle AS v,G2claim AS r WHERE r.G2Claim_Status='pending'AND r.G2Cust_Id=c.G2Cust_Id AND c.G2Cust_Id=v.G2Cust_Id;
@@ -9,6 +11,8 @@ G2customer AS c,G2vehicle AS v,G2claim AS r WHERE r.G2Claim_Status='pending'AND 
 
 /*Query2
 Question: Retrieve customer details who has premium payment amount greater than the sum of all the customerIds in the database.
+
+
 */
 select c.* from g2customer as c,g2premium_payment as p where p.G2Cust_Id=c.G2Cust_Id and p.G2Premium_Payment_Amount>(select
 sum(c.G2Cust_ID) from g2customer as c);
