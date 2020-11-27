@@ -18,10 +18,27 @@ d.Department_Name having count(d.Department_Name)and count(r.Company_Location)>1
 
 
 
-/*Query4*/
-SELECT c.* FROM g2customer as c JOIN g2vehicle AS v ON c.Cust_Id=v.Cust_Id JOIN g2premium_payment AS g
-ON g.Cust_Id =v.Cust_Id JOIN g2incident_report AS i ON i.Cust_Id=g.Cust_Id AND g.Premium_Payment_Amount=0 AND i.Incident_Type='accident'
- GROUP BY i.Cust_Id HAVING count(i.Cust_Id)>1;
+/*
+Query4
+ASSUMPTION: In G2Premium_Payment table, if the reciept id is null, then it means that the reciept isn't yet generated.
+So, the premium for one of the vehicle is not paid.
+*/
+
+
+SELECT C.*
+FROM G2CUSTOMER AS C
+WHERE C.Cust_Id IN(
+	SELECT IR.Cust_Id from g2incident_report AS IR
+    WHERE IR.Incident_Type = 'accident' and IR.Cust_Id in (
+		select P.Cust_Id from g2premium_payment as P
+			where P.Receipt_Id = 'null' and P.Cust_Id in (
+				select V.Cust_Id from G2VEHICLE AS V
+					group by V.Cust_Id
+					having count(V.Cust_Id) > 1
+		)
+    )  
+);
+
  
  
  
@@ -31,7 +48,7 @@ ON g.Cust_Id =v.Cust_Id JOIN g2incident_report AS i ON i.Cust_Id=g.Cust_Id AND g
 /*Query6*/
 
 
-
+-- Query - 6
 SELECT c.* FROM g2customer AS c INNER JOIN  g2claim_settlement  AS s ON s.Cust_Id=c.Cust_Id
 INNER JOIN g2claim AS r ON (r.Claim_Id=s.Claim_Id)INNER JOIN g2coverage AS l ON (l.Coverage_Id=s.Coverage_Id AND 
 r.Claim_Amount<l.Coverage_Amount AND r.Claim_Amount>(s.Claim_Settlement_Id+s.Vehicle_Id+s.Claim_Id+s.Cust_Id));

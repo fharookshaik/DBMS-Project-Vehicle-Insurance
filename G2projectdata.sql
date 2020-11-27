@@ -80,7 +80,7 @@ INSERT INTO g2incident_report VALUES (2223, 'gear box', '', 9856, 'unable to cha
 INSERT INTO g2incident_report VALUES (2224, '', 'vijay', 1054, '', 2124, 2024) ;
 INSERT INTO g2incident_report VALUES (2225, 'music player', '', 15600, 'bluetooth problem', 2125, 2025) ;
 INSERT INTO g2incident_report VALUES (2226, 'accident', '', 12659, '', 2126, 2019) ;
-INSERT INTO g2incident_report VALUES (2227, 'accident', '', 7512, '', 2127, 2020) ;
+INSERT INTO g2incident_report VALUES (2227, 'gear box', '', 7512, '', 2127, 2020) ;
 
 INSERT INTO g2insurance_company VALUES ('Life Insurance Corporation of India', 'Yogakshema, Jeevan Bima Marg', 180056598, 258369, 'Lic@gmail.com', 'licindia.com', 'Mumbai', '', '') ;
 INSERT INTO g2insurance_company VALUES ('HDFC Life Insurance Co. Ltd', '13th Floor, Lodha Excelus, Apollo Mills Compound, N.M. Joshi Road, Mahalaxmi, Mumbai', 180023254, 14725, 'hdfc@mail.com', 'hdfclife.com', 'Mumbai', 'hdfclife', 'hdfcoffice') ;
@@ -218,8 +218,8 @@ INSERT INTO g2premium_payment VALUES (2722, 4125698, 65000, '2019-12-12', 2922, 
 INSERT INTO g2premium_payment VALUES (2723, 325874, 8520, '2019-02-12', 2923, 2023) ;
 INSERT INTO g2premium_payment VALUES (2724, 698521, 3251, '2019-06-30', 2924, 2024) ;
 INSERT INTO g2premium_payment VALUES (2725, 368740, 45260, '2019-08-12', 2925, 2025) ;
-INSERT INTO g2premium_payment VALUES (2726, 65673437, 500000, '2019-07-02', 2926, 2019) ;
-INSERT INTO g2premium_payment VALUES (2727, 6347196, 0, '2019-07-03', 2927, 2020) ;
+INSERT INTO g2premium_payment VALUES (2726, 65673437, 500000, '2019-07-02', 'null', 2019) ;
+INSERT INTO g2premium_payment VALUES (2727, 6347196, 22350, '2019-07-03', 'null', 2020) ;
 
 
 INSERT INTO g2receipt VALUES (2901, '2020-11-07', 250, 2701, 2001) ;
@@ -247,8 +247,7 @@ INSERT INTO g2receipt VALUES (2922, '2020-01-10', 963, 2722, 2022) ;
 INSERT INTO g2receipt VALUES (2923, '2020-01-09', 456, 2723, 2023) ;
 INSERT INTO g2receipt VALUES (2924, '2020-07-12', 120, 2724, 2024) ;
 INSERT INTO g2receipt VALUES (2925, '2020-05-09', 980, 2725, 2025) ;
-INSERT INTO g2receipt VALUES (2926, '2020-08-12', 1000, 2726, 2019) ;
-INSERT INTO g2receipt VALUES (2927, '2020-08-14', 5500, 2727, 2020) ;
+
 
 INSERT INTO g2application VALUES (20001, 2401, 'ACCEPTED', 'Personal Injury Protection', 2001) ;
 INSERT INTO g2application VALUES (20002, 2402, 'PENDING', 'Collision Coverage', 2002) ;
