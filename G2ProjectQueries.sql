@@ -56,7 +56,7 @@ WHERE C.G2Cust_Id IN(
  
  
  /*Query5
- Question: Select all vehicles which have premium more than its vehicle number.
+ Question: Select all vehicles which have premium payment amount more than its vehicle number.
  */
 SELECT v.* FROM g2vehicle AS v,g2premium_payment AS p 
 	where v.G2Cust_Id=p.G2Cust_Id and p.G2Premium_Payment_Amount>v.G2Vehicle_Number order by G2Vehicle_Id asc;
