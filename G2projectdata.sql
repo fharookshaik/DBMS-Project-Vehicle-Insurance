@@ -82,7 +82,7 @@ INSERT INTO g2incident_report VALUES (2225, 'music player', '', 15600, 'bluetoot
 INSERT INTO g2incident_report VALUES (2226, 'accident', '', 12659, '', 2126, 2019) ;
 INSERT INTO g2incident_report VALUES (2227, 'gear box', '', 7512, '', 2127, 2020) ;
 
-INSERT INTO g2insurance_company VALUES ('Life Insurance Corporation of India', 'Yogakshema, Jeevan Bima Marg', 180056598, 258369, 'Lic@gmail.com', 'licindia.com', 'Mumbai', '', '') ;
+INSERT INTO g2insurance_company VALUES ('Life Insurance Corporation of India', 'Yogakshema, Jeevan Bima Marg', 180056598, 258369, 'Lic@gmail.com', 'licindia.com', 'Mumbai', 'Liclife', 'licoffice') ;
 INSERT INTO g2insurance_company VALUES ('HDFC Life Insurance Co. Ltd', '13th Floor, Lodha Excelus, Apollo Mills Compound, N.M. Joshi Road, Mahalaxmi, Mumbai', 180023254, 14725, 'hdfc@mail.com', 'hdfclife.com', 'Mumbai', 'hdfclife', 'hdfcoffice') ;
 INSERT INTO g2insurance_company VALUES ('Max Life Insurance Co. Ltd.', '3rd, 11th, 12th Floor, DLF Square Building,', 1800362541, 784565, 'maxlife@gmail.co', 'maxlife.com', 'Gurgaon', '', '') ;
 INSERT INTO g2insurance_company VALUES ('ICICI Prudential Life Insurance Co. Ltd', 'icici prulife towers', 1800988765, 986532, 'icici@yahoo.oin', 'https://www.iciciprulife.com/', 'Mumbai', 'ICICI PruLife', 'ICICI PruLife') ;
@@ -123,7 +123,7 @@ INSERT INTO g2department VALUES ('Claims Department', 2311, 'Harshad', 'PNB MetL
 INSERT INTO g2department VALUES ('Claims and audit loss Department', 2312, 'raghu', 'Reliance Nippon Life Insurance Company Limited') ;
 INSERT INTO g2department VALUES ('Legal Department', 2313, 'ramu', 'Aviva Life Insurance Company India Ltd.') ;
 INSERT INTO g2department VALUES ('Claims and audit Department', 2314, 'krishna', 'Sahara India Life Insurance Co. Ltd.') ;
-INSERT INTO g2department VALUES ('Audit Department', 2315, 'ravi', 'Life Insurance Corporation of India') ;
+INSERT INTO g2department VALUES ('Claims Department', 2315, 'ravi', 'Life Insurance Corporation of India') ;
 INSERT INTO g2department VALUES ('Claims and audit profit Department', 2316, 'agni', 'Bharti AXA Life Insurance Company Ltd') ;
 INSERT INTO g2department VALUES ('Accounting Department', 2317, 'raju', 'Future Generali India Life Insurance Company Limited,') ;
 INSERT INTO g2department VALUES ('Audit Department', 2318, 'ramesh', 'IDBI Federal Life Insurance Company Limited') ;
@@ -151,7 +151,7 @@ INSERT INTO g2vehicle_service VALUES ('Claims Department', 'Abc', 'Agra', 292728
 INSERT INTO g2vehicle_service VALUES ('Claims and audit loss Department', 'xyz', 'Amritsar', 717273767, 'Roshan', 'half service', 2312, 'Reliance Nippon Life Insurance Company Limited') ;
 INSERT INTO g2vehicle_service VALUES ('Legal Department', 'mno', 'Kolkata', 8182838485, 'Devi', 'Full service', 2313, 'Aviva Life Insurance Company India Ltd.') ;
 INSERT INTO g2vehicle_service VALUES ('Claims and audit Department', 'pqr', 'Cyberabad', 9495969897, 'Deepika', 'Full service', 2314, 'Sahara India Life Insurance Co. Ltd.') ;
-INSERT INTO g2vehicle_service VALUES ('Audit Department', 'stu', 'Chennai', 8184878582, 'Devansh', 'half service', 2315, 'Life Insurance Corporation of India') ;
+INSERT INTO g2vehicle_service VALUES ('Claims Department', 'stu', 'Chennai', 8184878582, 'Devansh', 'half service', 2315, 'Life Insurance Corporation of India') ;
 INSERT INTO g2vehicle_service VALUES ('Claims and audit profit Department', 'Stunt', 'Bangalore', 7475767879, 'Sriansh', 'Full service', 2316, 'Bharti AXA Life Insurance Company Ltd') ;
 INSERT INTO g2vehicle_service VALUES ('Accounting Department', 'lv', 'Tirupathi', 4548494642, 'Rudranch', 'Full service', 2317, 'Future Generali India Life Insurance Company Limited,') ;
 INSERT INTO g2vehicle_service VALUES ('Audit Department', 'kub', 'Agertala', 9787574767, 'Vedanch', 'half service', 2318, 'IDBI Federal Life Insurance Company Limited') ;
@@ -247,7 +247,6 @@ INSERT INTO g2receipt VALUES (2922, '2020-01-10', 963, 2722, 2022) ;
 INSERT INTO g2receipt VALUES (2923, '2020-01-09', 456, 2723, 2023) ;
 INSERT INTO g2receipt VALUES (2924, '2020-07-12', 120, 2724, 2024) ;
 INSERT INTO g2receipt VALUES (2925, '2020-05-09', 980, 2725, 2025) ;
-
 
 INSERT INTO g2application VALUES (20001, 2401, 'ACCEPTED', 'Personal Injury Protection', 2001) ;
 INSERT INTO g2application VALUES (20002, 2402, 'PENDING', 'Collision Coverage', 2002) ;
@@ -445,7 +444,7 @@ INSERT INTO g2nok VALUES (20625, 'venky', 'Kochi', 9944552001, 'M', 'Divorced', 
 INSERT INTO g2nok VALUES (20626, 'ramesh', 'vizag', 7894561237, 'M', '', 20126, 20026, 2019) ;
 INSERT INTO g2nok VALUES (20627, 'deepak', 'amaravathi', 9878654512, 'M', '', 20127, 20027, 2020) ;
 
-INSERT INTO g2product VALUES (500000, '2 wheler', 'rr23', 'Life Insurance Corporation of India') ;
+INSERT INTO g2product VALUES (500000, 'car', 'rr23', 'Life Insurance Corporation of India') ;
 INSERT INTO g2product VALUES (1000000, '4wheeler', 'ts147', 'HDFC Life Insurance Co. Ltd') ;
 INSERT INTO g2product VALUES (5000000, '6 seater', 'ko2222', 'Max Life Insurance Co. Ltd.') ;
 INSERT INTO g2product VALUES (6000000, '4 seater', 'ij3698', 'ICICI Prudential Life Insurance Co. Ltd') ;
@@ -459,7 +458,7 @@ INSERT INTO g2product VALUES (1000000, 'car', 'rg2546', 'PNB MetLife India Insur
 INSERT INTO g2product VALUES (520000, 'car', 'ws2648', 'Reliance Nippon Life Insurance Company Limited') ;
 INSERT INTO g2product VALUES (3200000, 'car', 'qz3468', 'Aviva Life Insurance Company India Ltd.') ;
 INSERT INTO g2product VALUES (52000, 'van', 'kj4029', 'Sahara India Life Insurance Co. Ltd.') ;
-INSERT INTO g2product VALUES (8500000, '3 wheeler', 'ym0539', 'Life Insurance Corporation of India') ;
+INSERT INTO g2product VALUES (8500000, 'van', 'ym0539', 'Life Insurance Corporation of India') ;
 INSERT INTO g2product VALUES (400000, '2 wheeler', 'ki1906', 'Bharti AXA Life Insurance Company Ltd') ;
 INSERT INTO g2product VALUES (200000, '4 wheeler', 'kl1256', 'Future Generali India Life Insurance Company Limited,') ;
 INSERT INTO g2product VALUES (6500000, '8 wheeler', 'sd10259', 'IDBI Federal Life Insurance Company Limited') ;
@@ -487,7 +486,7 @@ INSERT INTO g2office VALUES ('ads', 'koushik', 2536987410, 'mad', 650, 'Claims D
 INSERT INTO g2office VALUES ('jkl', 'balaji', 8523696325, 'bgl', 720, 'Claims and audit loss Department', 2312, 'Reliance Nippon Life Insurance Company Limited') ;
 INSERT INTO g2office VALUES ('fgh', 'siva', 1258963456, 'ubl', 45000, 'Legal Department', 2313, 'Aviva Life Insurance Company India Ltd.') ;
 INSERT INTO g2office VALUES ('qwe', 'divya', 963528741, 'hst', 65000, 'Claims and audit Department', 2314, 'Sahara India Life Insurance Co. Ltd.') ;
-INSERT INTO g2office VALUES ('rtc', 'divyana', 258963258, 'klm', 9000, 'Audit Department', 2315, 'Life Insurance Corporation of India') ;
+INSERT INTO g2office VALUES ('rtc', 'divyana', 258963258, 'klm', 9000, 'Claims Department', 2315, 'Life Insurance Corporation of India') ;
 INSERT INTO g2office VALUES ('aps', 'karthi', 4567898529, 'gnm', 8000, 'Claims and audit profit Department', 2316, 'Bharti AXA Life Insurance Company Ltd') ;
 INSERT INTO g2office VALUES ('xyz', 'varun', 654293871, 'dwd', 75000, 'Accounting Department', 2317, 'Future Generali India Life Insurance Company Limited,') ;
 INSERT INTO g2office VALUES ('pqr', 'karthik', 7596846325, 'asd', 52000, 'Audit Department', 2318, 'IDBI Federal Life Insurance Company Limited') ;
